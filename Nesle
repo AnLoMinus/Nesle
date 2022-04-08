@@ -243,7 +243,7 @@ install() {
             fi
             # installing tools
             if [ $tool_url != "" -a $tool_url != "null" ]; then
-              $sudo git clone $tool_url ~/$tool_name
+              $sudo git clone $tool_url ~/Anlominus/NeslePro/$tool_category/$tool_name
             fi
           else
             echo "${red}Sorry you are offline !!${nc}"
@@ -265,7 +265,7 @@ install() {
             fi
             # installing tools
             if [ $tool_url != "" -a $tool_url != "null" ]; then
-              git clone $tool_url ~/$tool_name
+              git clone $tool_url ~/Anlominus/NeslePro/$tool_category/$tool_name
             fi
           else
             echo "${red}Sorry ${nc}: you are ${red} offline ${nc}!!${nc}"
@@ -1104,7 +1104,7 @@ install_process() {
             fi
             # installing tools
             if [ $tool_url != "" -a $tool_url != "null" ]; then
-              $sudo git clone $tool_url ~/$tool_name
+              $sudo git clone $tool_url ~/Anlominus/NeslePro/$tool_category/$tool_name
             fi
           else
             echo "${red}Sorry you are offline !!${nc}"
@@ -1126,7 +1126,7 @@ install_process() {
             fi
             # installing tools
             if [ $tool_url != "" -a $tool_url != "null" ]; then
-              git clone $tool_url ~/$tool_name
+              git clone $tool_url ~/Anlominus/NeslePro/$tool_category/$tool_name
             fi
           else
             echo "${red}Sorry ${nc}: you are ${red} offline ${nc}!!"
