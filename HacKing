@@ -149,6 +149,8 @@ install() {
   tool_installer=`grep '.' $tools_data | sort -f | sed -n "$1p" | cut -d"|" -f5`
   # tool dependency (requirements)
   tool_dependency=`grep '.' $tools_data | sort -f | sed -n "$1p" | cut -d"|" -f6 | tr ' ' ','`
+  # tool Description
+  tool_description=`grep '.' $tools_data | sort -f | sed -n "$1p" | cut -d"|" -f7 | tr ' ' ','`
   # tool url
   tool_url=`grep '.' $tools_data | sort -f | sed -n "$1p" | cut -d"|" -f4`
   # package name or tool name
@@ -419,10 +421,13 @@ install_category_tool() {
   tool_installer=`grep '.' $tools_data | sort -f | sed -n "/$1/p" | sed -n "$2 p" | cut -d"|" -f5`
   # tool dependency (requirements)
   tool_dependency=`grep '.' $tools_data | sort -f | sed -n "/$1/p" | sed -n "$2 p" | cut -d"|" -f6 | tr ' ' ','`
-  # tool url
+  # tool Description
+  tool_description=`grep '.' $tools_data | sort -f | sed -n "/$1/p" | sed -n "$2 p" | cut -d"|" -f7 | tr ' ' ','`
+# tool url
   tool_url=`grep '.' $tools_data | sort -f | sed -n "/$1/p" | sed -n "$2 p" | cut -d"|" -f4`
   # package name or tool name
   tool_pac=`grep '.' $tools_data | sort -f | sed -n "/$1/p" | sed -n "$2 p" | cut -d"|" -f2`
+
 
   # check tool name is null or not
   if [ "$tool_name" ]; then
@@ -690,7 +695,7 @@ all_tools() {
     for data in `grep "." $tools_data | sort -f | grep -n '.' | sed -n 's/:/|/p' | cut -d"|" -f1,2 | tr ' ' '@'`; do
       # display tools name from data
       for tool in $data; do
-        echo " ${green} $tool" | tr '|' ' ' | tr '@' ' '
+        echo " ${green} $tool" | tr '|' ' ' | tr '@' ' ' 
       done
     done
     echo " ${green} 0 Back"

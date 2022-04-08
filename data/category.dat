@@ -1,26 +1,6 @@
-Anonymity|A_Anonymity
-Information Gathering|IG_Information_Gathering
-Vulnerability Scanner|VA_Vulnerability_Analysis
-Web Application Hacking|WAH_Web_Application_Hacking
-Database Assessment|DA_Database_Assessment
-Password Hacking|PH_Password_Hacking
-Wireless Testing|WT_Wireless_Testing
-Reverse Engineering|RE_Reverse_Engineering
-Exploit Frameworks|EF_Exploit_Frameworks
-Sniffing & Spoofing|SS_Sniffing_Spoofing
-Maintaining Access|MA_Maintaining_Access
-Digital Forensics|DF_Digital_Forensics
-Reporting|R_Reporting
-Social Engineering|SE_Social_Engineering
-Malware Analysis|MA_Malware_Analysis
-Covering Tracks|CT_Covering_Tracks
-Android|A_Android
-Termux|T_Termux
-Programming Languages|PL_Programming_Language
-Automotive|A_Automotive
-Web Servers|WS_Web_Servers
-Transfer Data|TD_Transfer_Data
-Payloads|P_Payloads
-All Other|AO_All_Other
-LazyTools|LT_Lazy_Tools
-Spamming|S_Spamming
+Platforms|P_Platforms
+Programming Languages|PL_Programming_Languages
+Front-End Development|FED_Front_End_Development
+Back-End Development|BED_Back_End_Development
+Computer Science|CS_Computer_Science
+Big Data|BD_Big_Data
