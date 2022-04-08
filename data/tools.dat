@@ -319,7 +319,7 @@ pydictor|pydictor|null|https://github.com/LandGrey/pydictor.git|git|python,git
 pyphisher|pyphisher|02_Information_Gathering,04_Web_Application_Hacking|https://github.com/KasRoudra/pyphisher.git|git|python,wget,curl,php,unzip
 python3-shodan|python3-shodan|02_Information_Gathering|null|package_manager|null
 python|python|19_Programming_Language|null|package_manager|null
-qark|qark|null|https://github.com/linkedin/qark.git|git|python,git
+qark|qark|17_Android|https://github.com/linkedin/qark.git|git|python,git
 rang3r|rang3r|03_Vulnerability_Analysis|https://github.com/floriankunushevci/rang3r.git|git|python,git
 reaver|reaver-wps-fork-t6x|07_Wireless_Testing|https://github.com/t6x/reaver-wps-fork-t6x.git|git|clang,gcc,git
 recon-ng|recon-ng|02_Information_Gathering|https://github.com/lanmaster53/recon-ng.git|git|python,git
