@@ -22,7 +22,7 @@ Banner(){
   ▒         ▀▀█▀▀ █▀▀█ █▀▀█ █   █▀▀             ▒
   ▒           █   █  █ █  █ █   ▀▀█             ▒
   ▒           ▀   ▀▀▀▀ ▀▀▀▀ ▀▀▀ ▀▀▀$ORANGE v0.0.0.1    ▒
-  ▒ https://www.github.com/Anlominus/Nesle    ▒
+  ▒ https://www.github.com/Anlominus/Nesle      ▒
   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
   "
 }
@@ -695,7 +695,7 @@ all_tools() {
     for data in `grep "." $tools_data | sort -f | grep -n '.' | sed -n 's/:/|/p' | cut -d"|" -f1,2 | tr ' ' '@'`; do
       # display tools name from data
       for tool in $data; do
-        echo " ${green} $tool" | tr '|' ' ' | tr '@' ' ' 
+        echo " ${green} $tool" | tr '|' ' ' | tr '@' ' '
       done
     done
     echo " ${green} 0 Back"
