@@ -1,9 +1,9 @@
 #         Penetration Testing Steps           #
-# //_24_//  HacKing/HacKits/AnyKits/UniKits Categories
+#  HacKing / HacKits / AnyKits / UniKits  
 
 ---
 
-# Menu
+# 🧾 Menu
 
 - [as](#as-Anonymity-Surfing) Anonymity Surfing
 - [pl](#pl-Planning) Planning
@@ -48,18 +48,6 @@
 
 ## rp Reporting|Reporting
 * sp Summary Reports
-
----
-
-mf Multi Frameworks|Multi_Frameworks
-aio All In One|All_In_One
-kd Kits Downloader
-mp Multi Purpose
-uk Universal Kits
-
-g Generators:
-
-0 Back
 
 ---
 
@@ -127,7 +115,17 @@ Vulnerabilities and flaws in security mechanisms are listed.
 ## 7. Penetration testing report preparation:
 Creating a report that includes a management review as well as technical information.
 
-###############################################
+---
+
+## kk - King Kits
+* mf Multi Frameworks|Multi_Frameworks
+* aio All In One|All_In_One
+* kd Kits Downloader
+* mp Multi Purpose
+* uk Universal Kits
+* g Generators:
+* 0 Back
+
 
 ┌──[Anlominus👽WorKing$~]
 └──╼
