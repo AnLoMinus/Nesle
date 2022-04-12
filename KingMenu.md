@@ -10,7 +10,7 @@
 - [sv](#Scanning%20Vulnerability) Scanning Vulnerability
 - [ga](#Gaining%20Access) Gaining Access
 - [ma](#Maintaining%20Access) Maintaining Access
-- [ct](#Covering%20tracks) Covering tracks
+- [ct](#ct%20Covering%20tracks) Covering tracks
 - [an](#Analysis) Analysis
 - [rp](#Reporting) Reporting
 
