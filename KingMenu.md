@@ -111,7 +111,9 @@ These tools usually have their own files that provide information about the most
 Performing the vulnerability in order to gain access to the target network or device.
 
 #### 5. Active Intrusion attempts phase:
-Installing a governance framework and obtaining access to further networks on the target network
+Installing a governance framework and obtaining access to further networks
+If a penetration tester has accomplished breaching the security perimeter or exploiting a target device, they can activate malware or some method to enable continued access, much like a real advanced persistent threat.
+ on the target network
 
 #### 6. Post-test exploitation and risk identification phase:
 Vulnerabilities and flaws in security mechanisms are listed.
