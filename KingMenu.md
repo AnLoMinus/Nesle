@@ -3,7 +3,7 @@
 
 ---
 
-# 🧾 Menu
+# 📜 Menu
 
 - [as](#as-Anonymity-Surfing) Anonymity Surfing
 - [pl](#pl-Planning) Planning
