@@ -22,11 +22,11 @@
 ## pl Planning
 * re Reconnaissance
 * ig Information Gathering
-* gps GeoLocation Tracker
 
 ## sv Scanning Vulnerability
 * ev Enumeration Vulnerability
 * df Digital Forensics
+* gps GeoLocation Tracker
 
 ## ga Gaining Access
 * p PayLoads
