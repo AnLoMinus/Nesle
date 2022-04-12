@@ -49,7 +49,7 @@
 ## an Analysis
 * rev Reverse Engineering
 
-## rp Reporting|Reporting
+## rp Reporting
 * sp Summary Reports
 
 ---
