@@ -1,5 +1,12 @@
-#         Penetration Testing Steps           #
-#  HacKing / HacKits / AnyKits / UniKits  
+# Penetration Testing Stages:
+
+* 1 Scope/Goal Definition
+* 2 Information Gathering
+* 3 Vulnerability Detection
+* 4 Information Analysis and Planning.
+* 5 Attack & Penetration/Privilege Escalation.
+* 6 Result Analysis & Reporting.
+* 7 Cleanup.
 
 ---
 
@@ -17,6 +24,8 @@
 ┌──[Anlominus👽PenTestKing$~]<br>
 └──╼
 
+---
+
 ## as Anonymity Surfing
 
 ## pl Planning
@@ -30,7 +39,6 @@
 
 ## ga Gaining Access
 * p PayLoads
-* b BackDoors
 * rs ReverseShell
 * ef Exploit Frameworks
 * sp Sniffing & Spoofing
@@ -41,6 +49,7 @@
 * wt Wireless Testing
 
 ## ma Maintaining Access
+* b BackDoors
 * ra Remote Access
 * rat Remote Administration Tool
 
@@ -51,18 +60,6 @@
 
 ## rp Reporting
 * sp Summary Reports
-
----
-
-# Penetration Testing Stages:
-
-* 1 Scope/Goal Definition
-* 2 Information Gathering
-* 3 Vulnerability Detection
-* 4 Information Analysis and Planning.
-* 5 Attack & Penetration/Privilege Escalation.
-* 6 Result Analysis & Reporting.
-* 7 Cleanup.
 
 ---
 
