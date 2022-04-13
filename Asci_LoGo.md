@@ -1,7 +1,6 @@
 - [ASCII Text Art Generator](https://fsymbols.com/generators/carty/)
 
 
-WorKing
 𝖶𝗈𝗋𝖪𝗂𝗇𝗀
 𝖧𝖺𝖼𝖪𝗂𝗇𝗀
 𝖠𝗇𝗒𝖦𝖾𝗇
