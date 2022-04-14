@@ -3,6 +3,13 @@
 # Date : April 2022
 # Description : Nesle is a tools Installer and Package Manager.
 # |
+# | Core Variables
+n_tool="Nesle"
+n_author="Anlominus"
+n_version="v0.0.0.15"
+n_repo="https://github.com/Anlominus/Nesle"
+# |
+# |
 nc="\033[00m"
 white="\033[1;37m"
 grey="\033[0;37m"
@@ -115,6 +122,10 @@ fi
 if [ -e /data/data/com.termux/files/usr/bin/pkg ]; then
   pac="pkg"
   system="termux"
+elif [ `command -v brew` ]; then
+  pac="brew"
+  system="mac"
+  sudo=""
 elif [ `command -v apt` ]; then
   pac="apt"
   system="linux"
@@ -127,10 +138,6 @@ elif [ `command -v apk` ]; then
 elif [ `command -v yum` ]; then
   pac="yum"
   system="fedora"
-elif [ `command -v brew` ]; then
-  pac="brew"
-  system="mac"
-  sudo=""
 fi
 
 # install tools
@@ -169,13 +176,13 @@ install() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $sudo $pac install $dep_name -y
+                  $sudo $pac install $dep_name
                 fi
               done
             fi
             # installing tools
             if [ $tool_pac != "" -a $tool_pac != "null" ]; then
-              $sudo $pac install $tool_pac -y
+              $sudo $pac install $tool_pac
             fi
           else
             echo "${red}Sorry you are offline !!${nc}"
@@ -191,13 +198,13 @@ install() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $pac install $dep_name -y
+                  $pac install $dep_name
                 fi
               done
             fi
             # installing tools
             if [ $tool_pac != "" -a $tool_pac != "null" ]; then
-              $pac install $tool_pac -y
+              $pac install $tool_pac
             fi
           else
             echo "${red}Sorry ${nc}: you are ${red} offline ${nc}!!"
@@ -229,7 +236,7 @@ install() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $sudo $pac install $dep_name -y
+                  $sudo $pac install $dep_name
                 fi
               done
             fi
@@ -251,7 +258,7 @@ install() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $pac install $dep_name -y
+                  $pac install $dep_name
                 fi
               done
             fi
@@ -289,7 +296,7 @@ install() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $sudo $pac install $dep_name -y
+                  $sudo $pac install $dep_name
                 fi
               done
             fi
@@ -311,7 +318,7 @@ install() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $pac install $dep_name -y
+                  $pac install $dep_name
                 fi
               done
             fi
@@ -349,7 +356,7 @@ install() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $sudo $pac install $dep_name -y
+                  $sudo $pac install $dep_name
                 fi
               done
             fi
@@ -371,7 +378,7 @@ install() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $pac install $dep_name -y
+                  $pac install $dep_name
                 fi
               done
             fi
@@ -437,13 +444,13 @@ install_category_tool() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $sudo $pac install $dep_name -y
+                  $sudo $pac install $dep_name
                 fi
               done
             fi
             # installing tools
             if [ $tool_pac != "" -a $tool_pac != "null" ]; then
-              $sudo $pac install $tool_pac -y
+              $sudo $pac install $tool_pac
             fi
           else
             echo "${red}Sorry you are offline !!${nc}"
@@ -459,13 +466,13 @@ install_category_tool() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $pac install $dep_name -y
+                  $pac install $dep_name
                 fi
               done
             fi
             # installing tools
             if [ $tool_pac != "" -a $tool_pac != "null" ]; then
-              $pac install $tool_pac -y
+              $pac install $tool_pac
             fi
           else
             echo "${red}Sorry ${nc}: you are ${red} offline ${nc}!!${nc}"
@@ -497,7 +504,7 @@ install_category_tool() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $sudo $pac install $dep_name -y
+                  $sudo $pac install $dep_name
                 fi
               done
             fi
@@ -519,7 +526,7 @@ install_category_tool() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $pac install $dep_name -y
+                  $pac install $dep_name
                 fi
               done
             fi
@@ -557,7 +564,7 @@ install_category_tool() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $sudo $pac install $dep_name -y
+                  $sudo $pac install $dep_name
                 fi
               done
             fi
@@ -579,7 +586,7 @@ install_category_tool() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $pac install $dep_name -y
+                  $pac install $dep_name
                 fi
               done
             fi
@@ -617,7 +624,7 @@ install_category_tool() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $sudo $pac install $dep_name -y
+                  $sudo $pac install $dep_name
                 fi
               done
             fi
@@ -639,7 +646,7 @@ install_category_tool() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $pac install $dep_name -y
+                  $pac install $dep_name
                 fi
               done
             fi
@@ -809,23 +816,23 @@ update() {
           sleep 1
           if [ `command -v git` ]; then
             if [ $sudo ]; then
-              $sudo git clone https://github.com/rajkumardusad/Nesle.git ~/Nesle
+              $sudo git clone https://github.com/Anlominus/Nesle.git ~/Nesle
               $sudo chmod +x ~/Nesle/install
               $sudo sh ~/Nesle/install
             else
-              git clone https://github.com/rajkumardusad/Nesle.git ~/Nesle
+              git clone https://github.com/Anlominus/Nesle.git ~/Nesle
               chmod +x ~/Nesle/install
               sh ~/Nesle/install
             fi
           else
             if [ $sudo ]; then
               $sudo $pac install git -y
-              $sudo git clone https://github.com/rajkumardusad/Nesle.git ~/Nesle
+              $sudo git clone https://github.com/Anlominus/Nesle.git ~/Nesle
               $sudo chmod +x ~/Nesle/install
               $sudo sh ~/Nesle/install
             else
               $pac install git -y
-              git clone https://github.com/rajkumardusad/Nesle.git ~/Nesle
+              git clone https://github.com/Anlominus/Nesle.git ~/Nesle
               chmod +x ~/Nesle/install
               sh ~/Nesle/install
             fi
@@ -975,20 +982,20 @@ cli_update() {
     sleep 1
     if [ `command -v git` ]; then
       if [ $sudo ]; then
-        $sudo git clone https://github.com/rajkumardusad/Nesle.git ~/Nesle
+        $sudo git clone https://github.com/Anlominus/Nesle.git ~/Nesle
         update_process
       else
-        git clone https://github.com/rajkumardusad/Nesle.git ~/Nesle
+        git clone https://github.com/Anlominus/Nesle.git ~/Nesle
         update_process
        fi
     else
       if [ $sudo ]; then
         $sudo $pac install git -y
-        $sudo git clone https://github.com/rajkumardusad/Nesle.git ~/Nesle
+        $sudo git clone https://github.com/Anlominus/Nesle.git ~/Nesle
         update_process
       else
         $pac install git -y
-        git clone https://github.com/rajkumardusad/Nesle.git ~/Nesle
+        git clone https://github.com/Anlominus/Nesle.git ~/Nesle
         update_process
       fi
     fi
@@ -1032,13 +1039,13 @@ install_process() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $sudo $pac install $dep_name -y
+                  $sudo $pac install $dep_name
                 fi
               done
             fi
             # installing tools
             if [ $tool_pac != "" -a $tool_pac != "null" ]; then
-              $sudo $pac install $tool_pac -y
+              $sudo $pac install $tool_pac
             fi
           else
             echo "${red}Sorry you are offline !!${nc}"
@@ -1054,13 +1061,13 @@ install_process() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $pac install $dep_name -y
+                  $pac install $dep_name
                 fi
               done
             fi
             # installing tools
             if [ $tool_pac != "" -a $tool_pac != "null" ]; then
-              $pac install $tool_pac -y
+              $pac install $tool_pac
             fi
           else
             echo "${red}Sorry ${nc}: you are ${red} offline ${nc}!!${nc}"
@@ -1092,7 +1099,7 @@ install_process() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $sudo $pac install $dep_name -y
+                  $sudo $pac install $dep_name
                 fi
               done
             fi
@@ -1114,7 +1121,7 @@ install_process() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $pac install $dep_name -y
+                  $pac install $dep_name
                 fi
               done
             fi
@@ -1152,7 +1159,7 @@ install_process() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $sudo $pac install $dep_name -y
+                  $sudo $pac install $dep_name
                 fi
               done
             fi
@@ -1174,7 +1181,7 @@ install_process() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $pac install $dep_name -y
+                  $pac install $dep_name
                 fi
               done
             fi
@@ -1212,7 +1219,7 @@ install_process() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $sudo $pac install $dep_name -y
+                  $sudo $pac install $dep_name
                 fi
               done
             fi
@@ -1234,7 +1241,7 @@ install_process() {
               for dep_name in `echo $tool_dependency | tr ',' ' '`; do
                 # installing dependency
                 if [ ! `command -v $dep_name` ]; then
-                  $pac install $dep_name -y
+                  $pac install $dep_name
                 fi
               done
             fi
