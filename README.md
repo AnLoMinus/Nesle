@@ -40,6 +40,8 @@
 <br>
 ⫷ [`Goals`](https://github.com/Anlominus/Goals) | [`Studies`](https://github.com/Anlominus/Studies) | [`HacKing`](https://github.com/Anlominus/HacKing) | [`AnyTeam`](https://github.com/Anlominus/AnyTeam) ⫸
 <br>
+⫷ [`Cyber-Security`](https://github.com/Anlominus/Cyber-Security) | [`Bug-Bounty`](https://github.com/Anlominus/Bug-Bounty) | [`HacKingWiFi`](https://github.com/Anlominus/HacKingWiFi) | [`AnyTeam`](https://github.com/Anlominus/AnyTeam) ⫸
+<br>
 
 ---
 
