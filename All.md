@@ -1,188 +1,188 @@
 
-[Anlominus/PenTest](https://github.com/Anlominus/PenTest)
+[PenTest](https://github.com/Anlominus/PenTest)
 
 
-[Anlominus/ScanPro](https://github.com/Anlominus/ScanPro)
+[ScanPro](https://github.com/Anlominus/ScanPro)
 
 
-[Anlominus/KoTH](https://github.com/Anlominus/KoTH)
+[KoTH](https://github.com/Anlominus/KoTH)
 
 
-[Anlominus/Nesle](https://github.com/Anlominus/Nesle)
+[Nesle](https://github.com/Anlominus/Nesle)
 
 
-[Anlominus/HacKingWiFi](https://github.com/Anlominus/HacKingWiFi)
+[HacKingWiFi](https://github.com/Anlominus/HacKingWiFi)
 
 
-[Anlominus/WorKing](https://github.com/Anlominus/WorKing)
+[WorKing](https://github.com/Anlominus/WorKing)
 
 
-[Anlominus/RedTeam](https://github.com/Anlominus/RedTeam)
+[RedTeam](https://github.com/Anlominus/RedTeam)
 
 
-[Anlominus/Linux-PrivEsc](https://github.com/Anlominus/Linux-PrivEsc)
+[Linux-PrivEsc](https://github.com/Anlominus/Linux-PrivEsc)
 
 
-[Anlominus/AntiPorn](https://github.com/Anlominus/AntiPorn)
+[AntiPorn](https://github.com/Anlominus/AntiPorn)
 
 
-[Anlominus/AnyTeam](https://github.com/Anlominus/AnyTeam)
+[AnyTeam](https://github.com/Anlominus/AnyTeam)
 
 
-[Anlominus/KitStart](https://github.com/Anlominus/KitStart)
+[KitStart](https://github.com/Anlominus/KitStart)
 
 
-[Anlominus/Linux](https://github.com/Anlominus/Linux)
+[Linux](https://github.com/Anlominus/Linux)
 
 
-[Anlominus/CheatSheets](https://github.com/Anlominus/CheatSheets)
+[CheatSheets](https://github.com/Anlominus/CheatSheets)
 
 
-[Anlominus/Linfo](https://github.com/Anlominus/Linfo)
+[Linfo](https://github.com/Anlominus/Linfo)
 
 
-[Anlominus/Quotes](https://github.com/Anlominus/Quotes)
+[Quotes](https://github.com/Anlominus/Quotes)
 
 
-[Anlominus/Virtues](https://github.com/Anlominus/Virtues)
+[Virtues](https://github.com/Anlominus/Virtues)
 
 
-[Anlominus/TeleHack](https://github.com/Anlominus/TeleHack)
+[TeleHack](https://github.com/Anlominus/TeleHack)
 
 
-[Anlominus/Music](https://github.com/Anlominus/Music)
+[Music](https://github.com/Anlominus/Music)
 
 
-[Anlominus/Privilege-Escalation](https://github.com/Anlominus/Privilege-Escalation)
+[Privilege-Escalation](https://github.com/Anlominus/Privilege-Escalation)
 
 
-[Anlominus/FrameWorks](https://github.com/Anlominus/FrameWorks)
+[FrameWorks](https://github.com/Anlominus/FrameWorks)
 
 
-[Anlominus/Gits](https://github.com/Anlominus/Gits)
+[Gits](https://github.com/Anlominus/Gits)
 
 
-[Anlominus/HacKing-Challenges](https://github.com/Anlominus/HacKing-Challenges)
+[HacKing-Challenges](https://github.com/Anlominus/HacKing-Challenges)
 
 
-[Anlominus/Glossary](https://github.com/Anlominus/Glossary)
+[Glossary](https://github.com/Anlominus/Glossary)
 
 
-[Anlominus/Drawings](https://github.com/Anlominus/Drawings)
+[Drawings](https://github.com/Anlominus/Drawings)
 
 
-[Anlominus/Categories](https://github.com/Anlominus/Categories)
+[Categories](https://github.com/Anlominus/Categories)
 
 
-[Anlominus/Offensive-Security](https://github.com/Anlominus/Offensive-Security)
+[Offensive-Security](https://github.com/Anlominus/Offensive-Security)
 
 
-[Anlominus/Goals](https://github.com/Anlominus/Goals)
+[Goals](https://github.com/Anlominus/Goals)
 
 
-[Anlominus/Lists](https://github.com/Anlominus/Lists)
+[Lists](https://github.com/Anlominus/Lists)
 
 
-[Anlominus/Windows-PrivEsc](https://github.com/Anlominus/Windows-PrivEsc)
+[Windows-PrivEsc](https://github.com/Anlominus/Windows-PrivEsc)
 
 
-[Anlominus/CEH](https://github.com/Anlominus/CEH)
+[CEH](https://github.com/Anlominus/CEH)
 
 
-[Anlominus/BlueTeam](https://github.com/Anlominus/BlueTeam)
+[BlueTeam](https://github.com/Anlominus/BlueTeam)
 
 
-[Anlominus/WhatsAppGhost](https://github.com/Anlominus/WhatsAppGhost)
+[WhatsAppGhost](https://github.com/Anlominus/WhatsAppGhost)
 
 
-[Anlominus/CleanerPro](https://github.com/Anlominus/CleanerPro)
+[CleanerPro](https://github.com/Anlominus/CleanerPro)
 
 
-[Anlominus/Penetration-Testing](https://github.com/Anlominus/Penetration-Testing)
+[Penetration-Testing](https://github.com/Anlominus/Penetration-Testing)
 
 
-[Anlominus/HacKits](https://github.com/Anlominus/HacKits)
+[HacKits](https://github.com/Anlominus/HacKits)
 
 
-[Anlominus/PurpleTeam](https://github.com/Anlominus/PurpleTeam)
+[PurpleTeam](https://github.com/Anlominus/PurpleTeam)
 
 
-[Anlominus/ShortCuts](https://github.com/Anlominus/ShortCuts)
+[ShortCuts](https://github.com/Anlominus/ShortCuts)
 
 
-[Anlominus/Backdoors](https://github.com/Anlominus/Backdoors)
+[Backdoors](https://github.com/Anlominus/Backdoors)
 
 
-[Anlominus/Challenges](https://github.com/Anlominus/Challenges)
+[Challenges](https://github.com/Anlominus/Challenges)
 
 
-[Anlominus/News](https://github.com/Anlominus/News)
+[News](https://github.com/Anlominus/News)
 
 
-[Anlominus/Sorry](https://github.com/Anlominus/Sorry)
+[Sorry](https://github.com/Anlominus/Sorry)
 
 
-[Anlominus/Cyber-Security](https://github.com/Anlominus/Cyber-Security)
+[Cyber-Security](https://github.com/Anlominus/Cyber-Security)
 
 
-[Anlominus/HackTheBox](https://github.com/Anlominus/HackTheBox)
+[HackTheBox](https://github.com/Anlominus/HackTheBox)
 
 
-[Anlominus/Reverse-Shell](https://github.com/Anlominus/Reverse-Shell)
+[Reverse-Shell](https://github.com/Anlominus/Reverse-Shell)
 
 
-[Anlominus/PayLoads](https://github.com/Anlominus/PayLoads)
+[PayLoads](https://github.com/Anlominus/PayLoads)
 
 
-[Anlominus/Motivation](https://github.com/Anlominus/Motivation)
+[Motivation](https://github.com/Anlominus/Motivation)
 
 
-[Anlominus/Education](https://github.com/Anlominus/Education)
+[Education](https://github.com/Anlominus/Education)
 
 
-[Anlominus/Control-Panels](https://github.com/Anlominus/Control-Panels)
+[Control-Panels](https://github.com/Anlominus/Control-Panels)
 
 
-[Anlominus/Build-X](https://github.com/Anlominus/Build-X)
+[Build-X](https://github.com/Anlominus/Build-X)
 
 
-[Anlominus/Sources](https://github.com/Anlominus/Sources)
+[Sources](https://github.com/Anlominus/Sources)
 
 
 [mrco24/PH-Recon](/mrco24/PH-Recon)
 
 
-[Anlominus/Cryptography](https://github.com/Anlominus/Cryptography)
+[Cryptography](https://github.com/Anlominus/Cryptography)
 
 
-[Anlominus/HacKingPasswords](https://github.com/Anlominus/HacKingPasswords)
+[HacKingPasswords](https://github.com/Anlominus/HacKingPasswords)
 
 
-[Anlominus/Methods](https://github.com/Anlominus/Methods)
+[Methods](https://github.com/Anlominus/Methods)
 
 
-[Anlominus/Exercises](https://github.com/Anlominus/Exercises)
+[Exercises](https://github.com/Anlominus/Exercises)
 
 
-[Anlominus/CompTIA](https://github.com/Anlominus/CompTIA)
+[CompTIA](https://github.com/Anlominus/CompTIA)
 
 
-[Anlominus/ProMan](https://github.com/Anlominus/ProMan)
+[ProMan](https://github.com/Anlominus/ProMan)
 
 
 [Bo0oM/fuzz.txt](/Bo0oM/fuzz.txt)
 
 
-[Anlominus/awesome-pentest](https://github.com/Anlominus/awesome-pentest)
+[awesome-pentest](https://github.com/Anlominus/awesome-pentest)
 
 
-[Anlominus/Scripts](https://github.com/Anlominus/Scripts)
+[Scripts](https://github.com/Anlominus/Scripts)
 
 
-[Anlominus/PEASS-ng](https://github.com/Anlominus/PEASS-ng)
+[PEASS-ng](https://github.com/Anlominus/PEASS-ng)
 
 
-[Anlominus/Remot3d](https://github.com/Anlominus/Remot3d)
+[Remot3d](https://github.com/Anlominus/Remot3d)
 
 
-[Anlominus/King-Hacking](https://github.com/Anlominus/King-Hacking)
+[King-Hacking](https://github.com/Anlominus/King-Hacking)
